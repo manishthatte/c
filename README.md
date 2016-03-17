@@ -1,4 +1,5 @@
 # c
-My experiments with c
+My experiments with c (c primer plus, 6th Edition - Stephen Prata)
 
-uploaded a personal info header
+1) Uploaded a personal info header
+2) Began uploading solutions to programming exercises
