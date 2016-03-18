@@ -8,3 +8,4 @@ Please suggest improvements if any...
 
 p.s. The problems which I could not solve are:
 Chapter 6 - No 4, No 5
+Chapter 7 - No 6
