@@ -18,12 +18,11 @@
 char get_options()
 {
     char ch; char choice; bool validChoice; float BASIC;
-    //while(1)
-    {
-        printf("Enter the letter corresponding to the desired pay rate (in $/hr) or action (e to quit):\n");
-        printf("a) $8.75/hr    b) $9.33/hr\n");
-        printf("c) $10.00/hr   d) $11.20/hr\n");
-        printf("e) quit\n");
+    
+    printf("Enter the letter corresponding to the desired pay rate (in $/hr) or action (e to quit):\n");
+    printf("a) $8.75/hr    b) $9.33/hr\n");
+    printf("c) $10.00/hr   d) $11.20/hr\n");
+    printf("e) quit\n");
 
     validChoice = false;
     while(!validChoice)
@@ -43,7 +42,7 @@ char get_options()
         while(getchar() != '\n')
             continue;
     }
-    }
+    
     return BASIC;
 }
 
