@@ -33,7 +33,7 @@ int main(void)
             case 'b': SLAB = HH; isChoice = true; break;
             case 'c': SLAB = MJ; isChoice = true; break;
             case 'd': SLAB = MS; isChoice = true; break;
-            case 'q': exit(0);
+            case 'q': details(); exit(0);
             default: printf("Please select only from the options given above:\n");
 
         }
@@ -57,5 +57,6 @@ int main(void)
     option = getchar();
     if((getchar() == 'y') && (getchar() != 'q'))
     goto start;
+    details();
     return 0;
 }
