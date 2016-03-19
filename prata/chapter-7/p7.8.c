@@ -36,7 +36,7 @@ char get_options()
             case 'b': BASIC = BASIC2; validChoice = true; break;
             case 'c': BASIC = BASIC3; validChoice = true; break;
             case 'd': BASIC = BASIC4; validChoice = true; break;
-            case 'e': return EXIT_SUCCESS; break;
+            case 'e': exit(0);
             default:  printf("Please enter from the above selections only.\n");
         }
         while(getchar() != '\n')
